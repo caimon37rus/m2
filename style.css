@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 20vh auto;
+  width: 336px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.top_yellow {
+  height: 28px;
+  background-color: #ffdc40;
+  border-radius: 9px 9px 0 0;
+}
+h1 {
+  text-align: center;
+}
+.sort {
+  float: right;
+  background-color: white;
+  border: none;
+}
+.sort:hover {
+  background-color: #833ae0;
+}
+.sort-text{display: inline-grid;}
+
+.sort_img {
+    transform: rotate(180deg);
+}
+
+.add {
+  width: 150px;
+  height: 42px;
+  color: white;
+  background-color: #833ae0;
+  border: #833ae0;
+  box-sizing: border-box;
+  border-radius: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px 0 0;
+  margin: 20px 20px 20px 90px;
+}
+.add:hover {
+  background-color: #430791;
+}
+.list {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+    margin-left: 20px;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 13px;
+}
+
+.inp_text {
+  border: none;
+  background-color: white;
+}
+
+.delete_text {
+  position: relative;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 71px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  margin-right: -3px;
+  outline: none;
+}
+
+.delete_text:hover {
+  background-color: #591baa;
+}
+
+.delete_img {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+width: 12px;
+height: 12px;
+}
+
+.plus {
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    background-color: #9953f1;
+    border-radius: 90px;
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    padding-top: 13px;
+  }
